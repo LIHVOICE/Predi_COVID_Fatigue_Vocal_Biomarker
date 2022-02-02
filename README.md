@@ -8,6 +8,10 @@ COVID-19 patients may experience severe and chronic fatigue, affecting their qua
 2. VGG19 feature extraction and ML models' training
 - Features were extracted through VGG19 pre-trained model provided by Keras. The extracted features were then reduced using Prinicipal Component Analysis (PCA) and fed into four machine learning models (K-Nearest Neighbors, Support Vector Machine, Logistic Regression and Voting Classifier). 
 - Based on the model selected for each audio set, we derived the trained vocal biomarkers which quantitatively represent the probability of being labeled as fatigued. The vocal biomarker is then plotted according to the true label of the test set samples, and a Student's t-test is performed to confirm that its distribution for each class is different.
+### Data
+Audio recordings are available on [Zenodo](https://zenodo.org/record/5937844#.YfpO6-rMJdg).
+
+
 
 ## Dependencies
 - Pandas 1.1.5
